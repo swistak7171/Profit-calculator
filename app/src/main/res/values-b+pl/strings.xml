@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator zysku</string>
+    <string name="send_email">Wyślij email:</string>
+    <string name="no_email_client">Na Twoim telefonie nie jest zainstalowany żaden klient email</string>
+    <string name="no_browser">Na Twoim telefonie nie jest zainstalowana żadna przeglądarka</string>
+    <string name="info_dialog">Wersja aplikacji: 1.1.5\n\nDeweloper: Kamil Szustak\nTesterzy: Ewa Kozłowska, Aneta Szustak\n\nPodziękowania dla icons8.com za przepiękne ikony!\n<a href="https://icons8.com/" >https://icons8.com/</a></string>
+    <string name="changelog_dialog">- Usunięto reklamy</string>
+
+    <string name="balance">Saldo</string>
+    <string name="period_of_time">Okres czasu</string>
+    <string name="monthly_payment">Wpłata miesięczna</string>
+    <string name="annual_interest_rate">Oprocentowanie roczne</string>
+    <string name="interest_capitalization">Kapitalizacja odsetek</string>
+    <string name="profit_tax">Podatek od zysku</string>
+    <string name="calculate">Oblicz</string>
+
+    <string name="result">Saldo końcowe</string>
+    <string name="empty_fields">Niektóre pola są puste</string>
+
+    <string name="clear_values">Wyczyść wartości</string>
+    <string name="whats_new">Co nowego?</string>
+    <string name="info">Informacje</string>
+    <string name="support_developer">Wesprzyj dewelopera</string>
+    <string name="rate_app">Oceń aplikację</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="cleared_values">Wyczyszczono wartości</string>
+
+    <string name="contact">KONTAKT</string>
+
+    <string name="balance_toast">Wpisz swoje obecne saldo</string>
+    <string name="period_of_time_toast">Wpisz jak długo planujesz oszczędzać</string>
+    <string name="monthly_payment_toast">Wpisz jak dużo zamierzasz wpłacać co miesiąc</string>
+    <string name="annual_interest_rate_toast">Wpisz wysokość oprocentowania rocznego</string>
+    <string name="interest_capitalization_toast">Wybierz okres kapitalizacji odsetek</string>
+    <string name="profit_tax_toast">Wpisz wysokość podatku od zysku</string>
+
+    <string name="default_tax">19</string>
+    <string name="profit">zysk</string>
+
+    <string-array name="period_array">
+        <item>miesiące</item>
+        <item>lata</item>
+    </string-array>
+
+    <string-array name="capitalization_array">
+        <item>miesięczna</item>
+        <item>kwartalna</item>
+        <item>roczna</item>
+        <item>na koniec okresu</item>
+    </string-array>
+</resources>

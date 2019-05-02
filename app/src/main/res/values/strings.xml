@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Profit calculator</string>
+    <string name="email" translatable="false">kamil.szustak98@gmail.com</string>
+    <string name="send_email">Send email:</string>
+    <string name="no_email_client">There is no email client installed on your phone</string>
+    <string name="no_browser">There is no browser installed on your phone</string>
+    <string name="info_dialog">App version: 1.1.5\n\nDeveloper: Kamil Szustak\nTesters: Ewa Kozłowska, Aneta Szustak\n\nThanks icons8.com for beautiful icons!\n<a href="https://icons8.com/" >https://icons8.com/</a></string>
+    <string name="changelog_dialog">- Removed ads</string>
+
+    <string name="balance">Balance</string>
+    <string name="period_of_time">Period of time</string>
+    <string name="monthly_payment">Monthly payment</string>
+    <string name="annual_interest_rate">Annual interest rate</string>
+    <string name="interest_capitalization">Interest capitalization</string>
+    <string name="profit_tax">Profit tax</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="result">End balance</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="empty_fields">Some of the fields are empty</string>
+
+    <string name="clear_values">Clear values</string>
+    <string name="whats_new">What\'s new?</string>
+    <string name="info">Information</string>
+    <string name="support_developer">Support developer</string>
+    <string name="rate_app">Rate app</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="cleared_values">Cleared values</string>
+
+    <string name="contact">CONTACT</string>
+
+    <string name="balance_toast">Enter you current balance</string>
+    <string name="period_of_time_toast">Enter how long you want to save</string>
+    <string name="monthly_payment_toast">Enter how much you want to deposit every month</string>
+    <string name="annual_interest_rate_toast">Enter annual interest rate</string>
+    <string name="interest_capitalization_toast">Choose interest capitalization period</string>
+    <string name="profit_tax_toast">Enter profit tax</string>
+
+    <string name="default_tax" />
+    <string name="percent_sign" translatable="false">%</string>
+    <string name="profit">profit</string>
+
+    <string-array name="period_array">
+        <item>months</item>
+        <item>years</item>
+    </string-array>
+
+    <string-array name="capitalization_array">
+        <item>monthly</item>
+        <item>quarterly</item>
+        <item>annual</item>
+        <item>end of period</item>
+    </string-array>
+</resources>
