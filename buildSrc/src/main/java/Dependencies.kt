@@ -22,6 +22,20 @@ object Dependencies {
     }
 
     object AndroidX {
+        object Compose {
+            const val COMPOSE_COMPILER: String = "androidx.compose.compiler:compiler:${Versions.COMPOSE}"
+            const val COMPOSE_UI: String = "androidx.compose.ui:ui:${Versions.COMPOSE}"
+            const val COMPOSE_UI_TOOLING: String = "androidx.compose.ui:ui-tooling:${Versions.COMPOSE}"
+            const val COMPOSE_FOUNDATION: String = "androidx.compose.foundation:foundation:${Versions.COMPOSE}"
+            const val COMPOSE_ACTIVITY: String = "androidx.activity:activity-compose:${Versions.COMPOSE}"
+            const val COMPOSE_MATERIAL_DESIGN: String = "androidx.compose.material:material:${Versions.COMPOSE}"
+            const val COMPOSE_MATERIAL_DESIGN_ICONS_CORE: String = "androidx.compose.material:material-icons-core:${Versions.COMPOSE}"
+            const val COMPOSE_MATERIAL_DESIGN_ICONS_EXTENDED: String = "androidx.compose.material:material-icons-extended:${Versions.COMPOSE}"
+            const val COMPOSE_ANIMATION: String = "androidx.compose.animation:animation:${Versions.COMPOSE}"
+            const val COMPOSE_RUNTIME_LIVEDATA: String = "androidx.compose.runtime:runtime-livedata:${Versions.COMPOSE}"
+            const val COMPOSE_UI_TEST_JUNIT_4: String = "androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE}"
+        }
+
         object AppCompat {
             const val APP_COMPAT: String = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
             const val APP_COMPAT_RESOURCES: String = "androidx.appcompat:appcompat-resources:${Versions.APP_COMPAT}"

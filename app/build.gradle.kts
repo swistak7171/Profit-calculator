@@ -51,15 +51,24 @@ android {
         )
     }
 
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = Versions.COMPOSE
+        useLiveLiterals = true
+    }
+
     testOptions {
         tasks.withType<Test>().configureEach {
             useJUnitPlatform()
         }
     }
+}
 
-    buildFeatures {
-        viewBinding = true
-    }
+repositories {
+    google()
 }
 
 dependencies {
@@ -77,6 +86,17 @@ dependencies {
     // implementation(project(Modules.UI_BASE))
     // implementation(project(Modules.UI_SPLASHSCREEN))
     // implementation(project(Modules.UI_MAIN))
+
+    // Jetpack Compose
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_UI)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_UI_TOOLING)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_FOUNDATION)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_ANIMATION)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_ACTIVITY)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_MATERIAL_DESIGN)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_MATERIAL_DESIGN_ICONS_CORE)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_MATERIAL_DESIGN_ICONS_EXTENDED)
+    implementation(Dependencies.AndroidX.Compose.COMPOSE_RUNTIME_LIVEDATA)
 
     // Material Components
     implementation(Dependencies.Google.Material.MATERIAL_COMPONENTS)
