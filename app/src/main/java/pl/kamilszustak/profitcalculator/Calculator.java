@@ -1,4 +1,4 @@
-package pl.kamilszustak.kalkulatoroszczdnoci;
+package pl.kamilszustak.profitcalculator;
 
 public class Calculator {
 

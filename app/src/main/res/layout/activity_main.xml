@@ -25,13 +25,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/relativeLayout">
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/balanceCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:contentPadding="6dp"
-                android:elevation="8dp"
-                style="@style/CardViewStyle">
+                android:elevation="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -59,16 +58,15 @@
                             android:layout_weight="10"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/periodOfTimeCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/balanceCardView"
                 android:elevation="8dp"
-                app:contentPadding="6dp"
-                style="@style/CardViewStyle">
+                app:contentPadding="6dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -102,16 +100,15 @@
                             android:layout_weight="3"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/monthlyPaymentCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/periodOfTimeCardView"
                 android:elevation="8dp"
-                app:contentPadding="6dp"
-                style="@style/CardViewStyle">
+                app:contentPadding="6dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -162,17 +159,16 @@
                             android:layout_weight="10"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/annualInterestRateCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/monthlyPaymentCardView"
                 android:elevation="8dp"
-                app:contentPadding="6dp"
-                style="@style/CardViewStyle">
+                app:contentPadding="6dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -208,16 +204,15 @@
                             android:layout_weight="3"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/interestCapitalizationCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/annualInterestRateCardView"
                 android:elevation="8dp"
-                app:contentPadding="6dp"
-                style="@style/CardViewStyle">
+                app:contentPadding="6dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -244,16 +239,15 @@
                             android:layout_weight="10"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/profitTaxCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/interestCapitalizationCardView"
                 android:elevation="8dp"
                 app:contentPadding="6dp"
-                style="@style/CardViewStyle"
                 android:layout_marginBottom="0dp">
 
                 <LinearLayout
@@ -315,7 +309,7 @@
                             android:layout_weight="3"/>
                     </LinearLayout>
                 </LinearLayout>
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
         </RelativeLayout>
     </ScrollView>
 

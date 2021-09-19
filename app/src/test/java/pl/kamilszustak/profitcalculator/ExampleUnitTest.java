@@ -1,4 +1,4 @@
-package pl.kamilszustak.kalkulatoroszczdnoci;
+package pl.kamilszustak.profitcalculator;
 
 import org.junit.Test;
 
